@@ -1,1 +1,1 @@
-SRC += behavior/key_repeat.c
+SRC += $(USER_PATH)/behavior/key_repeat.c
