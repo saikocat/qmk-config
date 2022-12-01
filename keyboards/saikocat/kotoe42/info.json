@@ -24,7 +24,7 @@
         "rows": ["F4", "F5", "F6", "F7", "B1", "B3", "B2"]
     },
     "layouts": {
-        "LAYOUT_kotoe42": {
+        "LAYOUT_unibody42": {
             "layout": [
                 {"label":"K00", "matrix": [0, 0], "x":0, "y":0.54},
                 {"label":"K01", "matrix": [0, 1], "x":1, "y":0.36},
