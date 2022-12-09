@@ -10,10 +10,14 @@
 
 /* Split Comm */
 #define USE_SERIAL
-#define SELECT_SOFT_SERIAL_SPEED 1
+#define SELECT_SOFT_SERIAL_SPEED 0
 
 /* Side detection / handedness */
 #define SPLIT_HAND_PIN B2
+
+/* CRC. */
+#define CRC8_USE_TABLE
+#define CRC8_OPTIMIZE_SPEED
 
 /* Conversion to Pin Compatible ProMicro MCUs */
 #if defined(CONVERT_TO_KB2040) || defined(CONVERT_TO_PROMICRO_RP2040)
