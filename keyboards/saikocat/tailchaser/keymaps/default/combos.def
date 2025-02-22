@@ -1,0 +1,73 @@
+COMB(WORD_BSPC_KL,          C(KC_BSPC),          KC_I, KC_O)
+
+COMB(SFT_OS_ASCLN,          OSM(MOD_LSFT),       KC_A, KC_SCLN)
+COMB(SFT_OS_WE,             OSM(MOD_RSFT),       KC_W, KC_E)
+COMB(SFT_OS_SD,             OSM(MOD_LSFT),       KC_S, KC_D)
+COMB(CTL_OS_SF,             OSM(MOD_LCTL),       KC_S, KC_F)
+COMB(ALT_OS_ZX,             OSM(MOD_LALT),       KC_Z, KC_X)
+COMB(GUI_OS_ZXC,            OSM(MOD_LGUI),       KC_Z, KC_X, KC_C)
+
+COMB(RET_PLOVER,            KC_ENT,              KC_F, KC_J)
+COMB(RET_THUMB,             KC_ENT,              BSPC_NUM, KC_SPC)
+COMB(PLOVER_SFT_RET,        S(KC_ENT),           KC_A, KC_SCLN, KC_F, KC_J)
+
+COMB(SPC_ASDF,              KC_SPC,              KC_A, KC_S, KC_D, KC_F)
+COMB(SPC_FG,                KC_SPC,              KC_F, KC_G)
+
+// Numpad
+COMB(NUM0,                  KC_P0,               KC_SCLN, KC_H)
+COMB(NUM1,                  KC_P1,               KC_SCLN, KC_M)
+COMB(NUM2,                  KC_P2,               KC_SCLN, KC_COMM)
+COMB(NUM3,                  KC_P3,               KC_SCLN, KC_DOT)
+COMB(NUM4,                  KC_P4,               KC_SCLN, KC_J)
+COMB(NUM5,                  KC_P5,               KC_SCLN, KC_K)
+COMB(NUM6,                  KC_P6,               KC_SCLN, KC_L)
+COMB(NUM7,                  KC_P7,               KC_SCLN, KC_U)
+COMB(NUM8,                  KC_P8,               KC_SCLN, KC_I)
+COMB(NUM9,                  KC_P9,               KC_SCLN, KC_O)
+
+
+COMB(OPEN_PAREN,            KC_LPRN,             KC_W, KC_F)
+COMB(CLOSE_PAREN,           KC_RPRN,             KC_O, KC_J)
+COMB(OPEN_BRC,              KC_LBRC,             KC_W, KC_R)
+COMB(CLOSE_BRC,             KC_RBRC,             KC_U, KC_O)
+COMB(OPEN_CBRC,             KC_LCBR,             KC_W, KC_D)
+COMB(CLOSE_CBRC,            KC_RCBR,             KC_O, KC_K)
+
+COMB(MINS_M_COMMA,          KC_MINS,             KC_M, KC_COMM)
+COMB(UNDS_DOT_COMMA,        KC_UNDS,             KC_DOT, KC_COMM)
+COMB(EQUALS,                KC_EQL,              KC_M, KC_DOT)
+COMB(PLUS,                  KC_PLUS,             KC_M, KC_DOT, KC_COMM)
+COMB(LESSER,                KC_LT,               KC_J, KC_I)
+COMB(GREATER,               KC_GT,               KC_L, KC_I)
+
+COMB(QUESTION_PLOVER,       KC_QUES,             KC_S, KC_D, KC_I, KC_O)
+COMB(EXCL_PLOVER,           KC_EXLM,             KC_L, KC_K, KC_W, KC_E)
+COMB(AT,                    KC_AT,               KC_S, KC_E)
+COMB(HASH_POUND,            KC_HASH,             KC_S, KC_R)
+COMB(DOLLAR,                KC_DLR,              KC_S, KC_V)
+COMB(PERCENT_LM,            KC_PERC,             KC_M, KC_L)
+COMB(CIRC,                  KC_CIRC,             KC_D, KC_V)
+COMB(AMPR,                  KC_AMPR,             KC_E, KC_F)
+COMB(ASTR_UI,               KC_ASTR,             KC_U, KC_I)
+
+COMB(PIPE_JM,               KC_PIPE,             KC_J, KC_M)
+COMB(SLASH_MK,              KC_SLSH,             KC_M, KC_K)
+COMB(BSLS_K_DOT,            KC_BSLS,             KC_K, KC_DOT)
+
+COMB(COLON_JK,              KC_COLN,             KC_J, KC_K)
+COMB(SCLN_JKL,              KC_SCLN,             KC_J, KC_K, KC_L)
+COMB(DUO_QUOT,              S(KC_QUOT),          KC_K, KC_L)
+COMB(QUOT,                  KC_QUOT,             KC_J, KC_L)
+
+COMB(BACKTICK,              KC_GRV,              KC_C, KC_S)
+COMB(TILDE,                 KC_TILD,             KC_C, KC_F)
+COMB(TILDE_XF,              KC_TILD,             KC_X, KC_F)
+
+COMB(REPEAT_ACTION,         UK_REPEAT,           KC_X, KC_C)
+
+COMB(erEsc,  KC_ESC,  KC_E, KC_R)
+COMB(dfTab,  KC_TAB,  KC_D, KC_F)
+//COMB(TAB_fg,  KC_TAB,  KC_F, KC_G)
+COMB(cvEnt,  KC_ENT,  KC_C, KC_V)
+COMB(hnEnt,  KC_ENT,  KC_H, KC_N)

@@ -1,0 +1,12 @@
+# POINTING_DEVICE_ENABLE = no
+POINTING_DEVICE_ENABLE = yes
+POINTING_DEVICE_DRIVER = cirque_pinnacle_i2c
+
+OLED_ENABLE = yes
+
+CAPS_WORD_ENABLE = yes
+COMBO_ENABLE = yes
+
+DEBOUNCE_TYPE = asym_eager_defer_pk
+
+WPM_ENABLE = yes

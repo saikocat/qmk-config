@@ -1,0 +1,13 @@
+{
+    "manufacturer": "saikocat",
+    "keyboard_name": "Tailchaser",
+    "maintainer": "saikocat",
+    "url": "https://github.com/saikocat",
+    "usb": {
+        "vid": "0x3110"
+    },
+    "development_board": "promicro",
+    "split": {
+        "enabled": true
+    }
+}
