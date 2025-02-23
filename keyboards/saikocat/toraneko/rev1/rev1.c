@@ -1,7 +1,7 @@
 // Copyright 2022 saikocat (@saikocat)
 // SPDX-License-Identifier: GPL-2.0-or-later
 
-#include "rev1.h"
+#include "quantum.h"
 
 #ifdef SWAP_HANDS_ENABLE
 // clang-format off

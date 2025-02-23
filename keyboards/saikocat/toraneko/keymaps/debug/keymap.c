@@ -7,6 +7,14 @@ enum layers {
     _DEFAULT = 0,
 };
 
+#ifdef COMBO_ENABLE
+const uint16_t PROGMEM esc_combo[] = {KC_A, KC_B, COMBO_END};
+
+combo_t key_combos[] = {
+    COMBO(esc_combo, KC_ESC),
+};
+#endif
+
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_DEFAULT] = LAYOUT_split_3x6_3(

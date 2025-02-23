@@ -1,0 +1,48 @@
+{
+    "development_board": "promicro_rp2040",
+
+    "build": {
+        "lto": false,
+        "firmware_format": "uf2",
+        "debounce_type": "asym_eager_defer_pk",
+    },
+
+    "features": {
+        "rgblight": true,
+        "oled": true
+    },
+
+    "qmk": {
+        "tap_code_delay": 0
+    },
+
+    "tapping": {
+        "term": 175,
+        "toggle": 5
+    },
+
+    "combo": {
+        "enabled": true,
+        "term": 25
+    },
+
+    "caps_word": {
+        "enabled": false,
+        "both_shifts_turns_on": true,
+        "double_tap_shift_turns_on": true,
+        "invert_on_shift": true,
+        "idle_timeout": 3000
+    },
+
+    "oneshot": {
+        "tap_toggle": 5,
+        "timeout": 3000
+    },
+
+    "rgblight": {
+        "driver": "ws2812"
+    },
+    "ws2812": {
+        "driver": "vendor"
+    }
+}
