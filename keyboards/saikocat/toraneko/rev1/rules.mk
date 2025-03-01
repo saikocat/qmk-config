@@ -1,1 +1,0 @@
-#define SERIAL_PIO_USE_PIO1
